@@ -8,9 +8,10 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { HeroListComponent } from './hero-list/hero-list.component';
 import { MessageComponent } from './message/message.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { HighlightDirective } from './shared/highlight.directive';
 
 @NgModule({
-  declarations: [AppComponent, HeroDetailComponent, HeroListComponent, MessageComponent, DashboardComponent],
+  declarations: [AppComponent, HeroDetailComponent, HeroListComponent, MessageComponent, DashboardComponent, HighlightDirective],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
